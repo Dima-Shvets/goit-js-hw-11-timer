@@ -1,0 +1,38 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.timer {
+  width: 500px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 50px;
+  color: white;
+  background-color: #d0d0d0;
+  border-radius: 6%;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-width: 80px;
+  border-radius: 6%;
+
+  background-color: #383838;
+
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+
+.field .label {
+  font-size: 15px;
+}
