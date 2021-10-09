@@ -1,2 +1,2 @@
 body{font-family:Roboto,sans-serif}.timer{width:500px;height:150px;justify-content:center;align-items:center;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:50px;color:#fff;background-color:#d0d0d0}.field,.timer{display:flex;border-radius:6%}.field{flex-direction:column;text-align:center;min-width:80px;background-color:#383838}.field:not(:last-child){margin-right:20px}.field .label{font-size:15px}
-/*# sourceMappingURL=/parcel-project-template/src.8d5afaa7.css.map */
+/*# sourceMappingURL=/goit-js-hw-11-timer/src.8d5afaa7.css.map */
